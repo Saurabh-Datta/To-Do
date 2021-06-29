@@ -1,0 +1,55 @@
+
+:root {
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
+    --cyan: #0ffff0;
+}
+
+* {
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+body{
+    background: var(--bg);
+}
+
+ul{
+    font-family: helvetica;
+}
+
+li{
+    list-style: circle;
+}
+
+.list{
+    list-style: square;
+}
+
+
+.light-theme {
+    --bg: var(--cyan);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--cyan);
+    --btnBg: var(--cyan);
+    --btnFontColor: var(--black);
+}
+
+.theme {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
