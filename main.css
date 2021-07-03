@@ -53,3 +53,16 @@ li{
     color: var(--btnFontColor);
     background-color: var(--btnBg);
 }
+
+.add {
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+    border: none;
+    border-radius: 9%;
+}
+
+.input {
+    color: darkgrey;
+    border: none;
+    border-radius: 5%;
+}
