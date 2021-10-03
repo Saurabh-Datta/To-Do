@@ -58,11 +58,28 @@ li{
     color: var(--btnFontColor);
     background-color: var(--btnBg);
     border: none;
-    border-radius: 9%;
+    border-radius: 10%;
+    height: 30px;
+    width: 70px;
 }
 
 .input {
-    color: darkgrey;
+    color: black;
     border: none;
     border-radius: 5%;
+    height: 30px;
+    width: 270px;
+    margin-right: 10px;
+    padding: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.main{
+    font-size: xx-large;
+    margin-top: 50px;
+}
+#msg{
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
